@@ -373,7 +373,8 @@ PRODUCT_COPY_FILES += \
 
 # Sensors
 PRODUCT_PACKAGES += \
-    libsensorndkbridge
+    libsensorndkbridge \
+    sensors.transsion
 
 PRODUCT_PACKAGES += \
     sensors.dynamic_sensor_hal
