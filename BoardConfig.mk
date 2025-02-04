@@ -27,6 +27,9 @@ TARGET_CPU_ABI := arm64-v8a
 TARGET_CPU_ABI2 :=
 TARGET_CPU_VARIANT := cortex-a76
 
+# Audio
+AUDIO_FEATURE_ENABLED_DS2_DOLBY_DAP := true
+
 # Enable 64-bit for non-zygote.
 ZYGOTE_FORCE_64 := true
 
