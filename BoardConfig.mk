@@ -39,6 +39,11 @@ TARGET_DYNAMIC_64_32_MEDIASERVER := true
 # Include 64-bit drmserver to support 64-bit only devices
 TARGET_DYNAMIC_64_32_DRMSERVER := true
 
+# ART
+WITH_DEXPREOPT := true
+DEX_PREOPT_DEFAULT := generate-vdex-and-image
+WITH_DEXPREOPT_DEBUG_INFO := false
+
 # Build the 32 bit targets
 TARGET_2ND_ARCH := arm
 TARGET_2ND_ARCH_VARIANT := armv8-2a
