@@ -220,6 +220,7 @@ ro.vendor.mtk_nn_support=1
 vendor.powerhal.interaction.offset=0
 vendor.powerhal.interaction.min=50
 vendor.powerhal.interaction.max=150
+vendor.perf.framepacing.enable=1
 
 # Radio
 persist.radio.multisim.config=dsds
