@@ -128,6 +128,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/display,$(TARGET_COPY_OUT_VENDOR)/etc)
 
+PRODUCT_PACKAGES += \
+    ANGLE
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey
