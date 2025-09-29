@@ -1,2 +1,5 @@
+# Tkv
+type tkv_block_device, dev_type;
+
 # Tranfs
 type tranfs_block_device, dev_type;
