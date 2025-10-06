@@ -388,6 +388,12 @@ PRODUCT_COPY_FILES += \
 # Shims
 PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-convert-shared.vendor \
+    liblz4.vendor \
+    libmemunreachable.vendor \
+    libjsoncpp.vendor \
+    libziparchive.vendor \
+    libsqlite.vendor \
+    libdumpstateutil.vendor \
     libbase_shim \
     libcamera_metadata_shim \
     libhidlbase_shim \
