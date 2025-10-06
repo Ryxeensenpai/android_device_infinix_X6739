@@ -440,6 +440,8 @@ PRODUCT_PACKAGES += \
 
 # Wi-Fi
 PRODUCT_PACKAGES += \
+    libkeystore-wifi-hidl \
+    libkeystore-engine-wifi-hidl \
     android.hardware.wifi-service \
     hostapd \
     libwifi-hal-wrapper \
