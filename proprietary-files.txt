@@ -1331,10 +1331,15 @@ vendor/bin/netdagent
 vendor/etc/init/netdagent.rc
 vendor/etc/init/networksetting.rc
 vendor/etc/init/tetheroffloadservice.rc
-vendor/lib/vendor.mediatek.hardware.netdagent@1.0.so
 vendor/lib64/libforkexecwrap.so
 vendor/lib64/libifcutils_mtk.so
 vendor/lib64/vendor.mediatek.hardware.netdagent@1.0.so
+
+# TNE
+vendor/lib64/libtneclient.so
+
+# Tranlog
+vendor/lib64/libtranlog.so
 
 # Thermal
 vendor/bin/thermal
