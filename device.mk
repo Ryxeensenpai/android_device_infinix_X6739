@@ -96,7 +96,7 @@ PRODUCT_COPY_FILES += \
 
 # Bluetooth
 PRODUCT_PACKAGES += \
-    android.hardware.bluetooth@1.1.vendor:64
+    android.hardware.bluetooth-service.mediatek
 
 PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.bluetooth.audio@2.1.vendor:64 \
@@ -441,7 +441,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libbinder-v31 \
     libhidlbase-v31 \
-    libutils-v31
+    libutils-v31 
 
 # ViPER4Android
 $(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
