@@ -243,11 +243,11 @@ PRODUCT_PACKAGES += \
 
 # NFC
 PRODUCT_PACKAGES += \
+    android.hardware.nfc-service.st \
     com.android.nfc_extras \
     Tag
 
 PRODUCT_PACKAGES += \
-    android.hardware.nfc@1.2.vendor \
     libchrome.vendor
 
 PRODUCT_COPY_FILES += \
@@ -369,7 +369,7 @@ PRODUCT_PACKAGES += \
     init.mtkgki.rc \
     init.project.rc \
     init.sensor_2_0.rc \
-    init.stnfc.rc \
+    init.nfc.X6739.rc \
     ueventd.mt6893.rc
 
 PRODUCT_COPY_FILES += \
