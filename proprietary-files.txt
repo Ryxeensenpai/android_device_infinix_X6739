@@ -1,5 +1,9 @@
 # Unpinned blobs from sys_tssi_64_armv82_infinix-user 14 UP1A.231005.007 722992 release-keys
 
+# AEE
+vendor/lib/libaedv.so
+vendor/lib64/libaedv.so
+
 # Audio
 vendor/bin/mt6660_calibration
 vendor/bin/rt5512_calibration
