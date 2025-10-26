@@ -14,6 +14,7 @@ $(call inherit-product, device/infinix/X6739/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+BOARD_VENDOR := Infinix
 PRODUCT_NAME := lineage_X6739
 PRODUCT_DEVICE := X6739
 PRODUCT_MANUFACTURER := INFINIX
@@ -21,9 +22,7 @@ PRODUCT_BRAND := Infinix
 PRODUCT_MODEL := Infinix X6739
 
 PRODUCT_GMS_CLIENTID_BASE := android-transsion
-
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="sys_tssi_64_armv82_infinix-user 14 UP1A.231005.007 722992 release-keys" \
-    BuildFingerprint=Infinix/X6739-GL/Infinix-X6739:14/UP1A.231005.007/241017V722:user/release-keys \
-    SystemDevice=Infinix-X6739 \
-    SystemName=X6739-GL
+PRODUCT_SYSTEM_NAME := X6739-GL
+PRODUCT_SYSTEM_DEVICE := Infinix-X6739
+    
+BUILD_FINGERPRINT := Infinix/X6739-GL/Infinix-X6739:14/UP1A.231005.007/250610V824:user/release-keys
