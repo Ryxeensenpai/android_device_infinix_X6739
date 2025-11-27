@@ -81,8 +81,8 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
-    name: "init.nfc.X6739.rc",
-    src: "init.nfc.X6739.rc",
+    name: "init.stnfc.rc",
+    src: "init.stnfc.rc",
     sub_dir: "init/hw",
     vendor: true,
 }
