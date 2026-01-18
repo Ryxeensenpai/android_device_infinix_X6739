@@ -141,6 +141,14 @@ ro.vendor.tgpa_resolution_tuner=1
 ro.vendor.tgpa_scaler_time=20200407
 ro.vendor.tgpa_scaler_version=1
 
+# Dalvik
+dalvik.vm.heapstartsize=24m
+dalvik.vm.heapgrowthlimit=256m
+dalvik.vm.heapsize=512m
+dalvik.vm.heaptargetutilization=0.46
+dalvik.vm.heapminfree=8m
+dalvik.vm.heapmaxfree=48m
+
 # DRM
 drm.service.enabled=true
 ro.netflix.bsp_rev=MTK6893-32816-1
