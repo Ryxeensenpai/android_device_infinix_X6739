@@ -76,7 +76,7 @@ BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2 bootconfig
 BOARD_KERNEL_CMDLINE += androidboot.init_fatal_reboot_target=recovery
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := x6739u_h931
+TARGET_BOOTLOADER_BOARD_NAME := Infinix-X6739
 TARGET_NO_BOOTLOADER := true
 
 # Display

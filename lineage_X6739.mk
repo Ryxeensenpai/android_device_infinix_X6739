@@ -24,5 +24,9 @@ PRODUCT_MODEL := Infinix X6739
 PRODUCT_GMS_CLIENTID_BASE := android-transsion
 PRODUCT_SYSTEM_NAME := X6739-GL
 PRODUCT_SYSTEM_DEVICE := Infinix-X6739
-    
-BUILD_FINGERPRINT := Infinix/X6739-GL/Infinix-X6739:14/UP1A.231005.007/250610V824:user/release-keys
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    BuildDesc="vnd_x6739u_h931-user 12 SP1A.210812.016 820402 release-keys" \
+    BuildFingerprint=Infinix/X6739-GL/Infinix-X6739:14/UP1A.231005.007/250610V824:user/release-keys \
+    DeviceName=$(PRODUCT_SYSTEM_DEVICE) \
+    DeviceProduct=$(PRODUCT_SYSTEM_NAME)
