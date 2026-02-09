@@ -34,6 +34,7 @@ blob_fixups: blob_fixups_user_type = {
     ('vendor/bin/hw/android.hardware.gnss-service.mediatek', 'vendor/lib64/hw/android.hardware.gnss-impl-mediatek.so'): blob_fixup()
         .replace_needed('android.hardware.gnss-V1-ndk_platform.so', 'android.hardware.gnss-V1-ndk.so'),
     ('vendor/bin/hw/vendor.mediatek.hardware.pq@2.2-service', 'vendor/lib64/hw/vendor.mediatek.hardware.pq@2.15-impl.so'): blob_fixup()
+        .replace_needed('libtinyxml2.so', 'libtinyxml2-v34.so')
         .replace_needed('libutils.so', 'libutils-v31.so'),
     'vendor/etc/init/android.hardware.media.c2@1.2-mediatek.rc': blob_fixup()
         .add_line_if_missing('    interface android.hardware.media.c2@1.0::IComponentStore default')
@@ -46,6 +47,7 @@ blob_fixups: blob_fixups_user_type = {
     ('vendor/bin/mnld', 'vendor/lib64/libaalservice.so', 'vendor/lib64/libcam.utils.sensorprovider.so', 'vendor/lib64/hw/android.hardware.sensors@2.X-subhal-mediatek.so'): blob_fixup()
         .add_needed('android.hardware.sensors@1.0-convert-shared.so'),
     'vendor/lib64/hw/audio.primary.mt6893.so': blob_fixup()
+        .replace_needed('libtinyxml2.so', 'libtinyxml2-v34.so')
         .replace_needed('libutils.so', 'libutils-v31.so')
         .replace_needed('libalsautils.so', 'libalsautils-v31.so'),
     ('system_ext/etc/init/init.vtservice.rc', 'vendor/etc/init/android.hardware.neuralnetworks@1.3-service-mtk-neuron.rc'): blob_fixup()
@@ -89,6 +91,8 @@ blob_fixups: blob_fixups_user_type = {
         .add_needed('libcutils.so'),
     'vendor/etc/libnfc-hal-st.conf': blob_fixup()
         .regex_replace('STNFC_FW_DEBUG_ENABLED=1', 'STNFC_FW_DEBUG_ENABLED=0'),
+    'vendor/lib64/librt_extamp_intf.so': blob_fixup()
+        .replace_needed('libtinyxml2.so', 'libtinyxml2-v34.so'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(

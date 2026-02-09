@@ -433,6 +433,7 @@ PRODUCT_PACKAGES += \
 
 # VNDK
 PRODUCT_PACKAGES += \
+    libtinyxml2-v34 \
     libbinder-v31 \
     libhidlbase-v31 \
     libutils-v31 
