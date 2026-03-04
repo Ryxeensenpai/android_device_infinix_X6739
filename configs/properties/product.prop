@@ -18,3 +18,6 @@ ro.fm.short_ana_sup=1
 
 # Perf Anim
 persist.sys.activity_anim_perf_override=true
+
+# RKP
+remote_provisioning.hostname=remoteprovisioning.googleapis.com
