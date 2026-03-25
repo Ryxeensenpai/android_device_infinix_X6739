@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2025 The LineageOS Project
+# Copyright (C) 2025 The Pixel OS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -11,11 +11,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from X6739 device
 $(call inherit-product, device/infinix/X6739/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Pixel stuff.
+$(call inherit-product, vendor/custom/config/common_full_phone.mk)
 
 BOARD_VENDOR := Infinix
-PRODUCT_NAME := lineage_X6739
+PRODUCT_NAME := custom_X6739
 PRODUCT_DEVICE := X6739
 PRODUCT_MANUFACTURER := INFINIX
 PRODUCT_BRAND := Infinix
