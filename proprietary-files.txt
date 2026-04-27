@@ -812,7 +812,6 @@ vendor/lib64/libwvhidl.so
 # Fingerprint
 vendor/etc/vintf/manifest/manifest.xml|a04f9d93e5c6f02a6bdc3b093d8f8d426bd88d5c
 vendor/etc/init/vendor.goodix.rc|0dca9347309dc4ff0b57fd6a14b7e41d45130984
-vendor/lib64/libgf_hal.so|07376e40a7ce761634871fdbc1e2c05696e0382f
 vendor/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so|391c9727dbdadfe83682dfc6f989b7e9e862392f
 vendor/lib64/vendor.mediatek.hardware.biometrics.fingerprint@2.1.so|9b2e1682b07d50326a2ca39a73f0f79516cc0d61
 
@@ -823,6 +822,7 @@ vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service-mediatek.rc|
 vendor/etc/init/android.hardware.biometrics.fingerprint@2.3-service.transsion.rc|21b317910a10eff349fed6262c753a0be65dfbcc
 vendor/etc/vintf/manifest/android.hardware.biometrics.fingerprint@2.1-service-mediatek.xml|ad74278e3dcd98a0cf827f798eab27f3249b601e
 vendor/etc/vintf/manifest/android.hardware.biometrics.fingerprint@2.3-service.transsion.xml|75cbb1f959fb56709ff757549d89e495588744e1
+vendor/lib64/libgf_hal.so|37d94394988e720946f6cf6138e2057abac7a6c7
 vendor/lib64/hw/gf_fingerprint.default.so;FIX_SONAME|3fc853bf58aa006e69931e9afb1e407b11aa9674|3fc853bf58aa006e69931e9afb1e407b11aa9674
 
 # Firmware
