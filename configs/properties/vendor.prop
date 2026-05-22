@@ -317,3 +317,7 @@ ro.vendor.mtk_wfd_support=1
 
 # Zygote
 zygote.critical_window.minute=10
+
+# Scroll Optimizer
+persist.sys.perf.scroll_opt=true
+persist.sys.perf.scroll_opt.heavy_app=1
