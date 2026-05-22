@@ -30,3 +30,10 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildFingerprint=Infinix/X6739-GL/Infinix-X6739:14/UP1A.231005.007/250610V824:user/release-keys \
     DeviceName=$(PRODUCT_SYSTEM_DEVICE) \
     DeviceProduct=$(PRODUCT_SYSTEM_NAME)
+
+# Lunaris Flags
+TARGET_CUSTOM_UDFPS := true
+WITH_GMS := true
+TARGET_SUPPORTS_GOOGLE_TELEPHONY := false
+TARGET_USE_GPHOTOS := true
+TARGET_USE_WALLPAPERS := true

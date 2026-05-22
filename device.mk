@@ -259,6 +259,7 @@ PRODUCT_PACKAGES += \
     PowerOffAlarmOverlayX6739 \
     SettingsOverlayX6739 \
     SettingsProviderOverlayX6739 \
+    SettingsResOverlayX6739 \
     SystemUIOverlayX6739 \
     TetheringResOverlayX6739 \
     WifiResOverlayX6739
