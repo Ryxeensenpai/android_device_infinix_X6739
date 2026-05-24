@@ -21,3 +21,13 @@ persist.sys.activity_anim_perf_override=true
 
 # RKP
 remote_provisioning.hostname=remoteprovisioning.googleapis.com
+
+# About Phone
+ro.mist.display=1080 x 2400, 120 hz
+ro.mist.battery=5000mah
+ro.mist.soc=Mediatek Dimensity 8050
+ro.mist.camera=108MP + 2MP + 2MP
+ro.mist.front=32MP
+ro.mist.platform=MT6893_T/CZA
+ro.mist.screen=6.67" AMOLED
+ro.mist.device.name=Infinix GT 10 Pro
