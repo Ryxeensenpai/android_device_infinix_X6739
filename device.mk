@@ -454,3 +454,6 @@ PRODUCT_COPY_FILES += \
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/infinix/X6739/X6739-vendor.mk)
+
+# Wifi WPA3 Fix
+$(call soong_config_set,wpa_supplicant_8,wifi_disable_wpa_version_3,true)

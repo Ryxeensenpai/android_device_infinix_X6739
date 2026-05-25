@@ -12,10 +12,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/infinix/X6739/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/lumine/config/common_full_phone.mk)
 
 BOARD_VENDOR := Infinix
-PRODUCT_NAME := lineage_X6739
+PRODUCT_NAME := lumine_X6739
 PRODUCT_DEVICE := X6739
 PRODUCT_MANUFACTURER := INFINIX
 PRODUCT_BRAND := Infinix
@@ -30,3 +30,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildFingerprint=Infinix/X6739-GL/Infinix-X6739:14/UP1A.231005.007/250610V824:user/release-keys \
     DeviceName=$(PRODUCT_SYSTEM_DEVICE) \
     DeviceProduct=$(PRODUCT_SYSTEM_NAME)
+
+# Lumine Flags
+LUMINE_MAINTAINER := RyX27_x_CarBeat
+LUMINE_MAINTAINER_LINK := https://t.me/ryxrandom
