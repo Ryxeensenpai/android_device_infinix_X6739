@@ -586,18 +586,6 @@
         "Value": "50"
       },
       {
-        "PowerHint": "EXPENSIVE_RENDERING",
-        "Node": "CPUEfficiencyClusterMinFreq",
-        "Duration": 0,
-        "Value": "1625000"
-      },
-      {
-        "PowerHint": "EXPENSIVE_RENDERING",
-        "Node": "CPUSuperClusterMinFreq",
-        "Duration": 0,
-        "Value": "2200000"
-      },
-      {
         "PowerHint": "ML_ACC",
         "Node": "PMQoSCpuDmaLatency",
         "Duration": 2000,
