@@ -82,10 +82,10 @@ service vendor.gralloc-4-0 /vendor/bin/hw/android.hardware.graphics.allocator@4.
     override
 
 service vendor.hwcomposer-2-3 /vendor/bin/hw/android.hardware.graphics.composer@2.3-service
-    override
     class hal animation
     user system
     group graphics drmrpc
     capabilities SYS_NICE
     onrestart restart surfaceflinger
-    task_profiles HighPerformance
+    task_profiles ProcessCapacityHigh HighPerformance
+    override
