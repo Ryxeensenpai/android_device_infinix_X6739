@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/custom_X6739.mk
+    $(LOCAL_DIR)/ayaka_X6739.mk
