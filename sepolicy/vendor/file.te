@@ -1,5 +1,6 @@
 # Battery
 type sysfs_bat_cycle, fs_type, sysfs_type;
+type vendor_sysfs_battery_supply, fs_type, sysfs_type;
 
 # Camera
 type sysfs_tran_cam_file, fs_type, sysfs_type;
