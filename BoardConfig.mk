@@ -5,7 +5,8 @@
 #
 
 DEVICE_PATH := device/infinix/X6739
-KERNEL_PATH := device/infinix/X6739-kernel
+KERNEL_PATH := $(DEVICE_PATH)-kernel
+COMMON_GKI_PATH := device/millennium/common-kernel
 
 # A/B
 AB_OTA_PARTITIONS += \
@@ -91,14 +92,13 @@ TARGET_NO_BOOTLOADER := true
 TARGET_SCREEN_DENSITY := 440
 
 # Kernel
-BOARD_KERNEL_IMAGE_NAME := Image.gz
-
 TARGET_NO_KERNEL_OVERRIDE := true
-TARGET_KERNEL_SOURCE := $(KERNEL_PATH)/kernel-headers
-
-LOCAL_KERNEL := $(KERNEL_PATH)/$(BOARD_KERNEL_IMAGE_NAME)
+LOCAL_KERNEL := $(COMMON_GKI_PATH)/chihiro/Image.gz
 PRODUCT_COPY_FILES += \
 	$(LOCAL_KERNEL):kernel
+
+# Workaround to make lineage's soong generator work
+TARGET_KERNEL_SOURCE := $(COMMON_GKI_PATH)/kernel-headers
 
 BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
 BOARD_PREBUILT_DTBIMAGE_DIR := $(KERNEL_PATH)/dtb
