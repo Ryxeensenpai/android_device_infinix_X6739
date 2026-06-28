@@ -430,7 +430,7 @@ PRODUCT_PACKAGES += \
 VIBRATOR_SUPPORTS_EFFECTS := true
 
 PRODUCT_PACKAGES += \
-    android.hardware.vibrator-service.transsion
+    android.hardware.vibrator-service.mediatek.x6739
 
 # VNDK
 PRODUCT_PACKAGES += \
