@@ -151,8 +151,10 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_BUILD_SUPER_PARTITION := false
 
 PRODUCT_PACKAGES += \
-    android.hardware.fastboot@1.1-impl.custom \
     fastbootd
+
+# Bypass Lock State for Kaeru
+$(call soong_config_set_bool,fastbootd,bypass_lock_state,true)
 
 # Fingerprint
 PRODUCT_PACKAGES += \
