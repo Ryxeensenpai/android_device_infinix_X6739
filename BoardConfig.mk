@@ -138,22 +138,14 @@ BOARD_INFINIX_DYNAMIC_PARTITIONS_PARTITION_LIST := \
     product \
     vendor
 
-ifneq ($(WITH_GMS),true)
-BOARD_PRODUCTIMAGE_FILE_SYSTEM_TYPE := ext4
-BOARD_SYSTEMIMAGE_FILE_SYSTEM_TYPE := ext4
-BOARD_SYSTEM_EXTIMAGE_FILE_SYSTEM_TYPE := ext4
-else
 BOARD_PRODUCTIMAGE_FILE_SYSTEM_TYPE := erofs
 BOARD_SYSTEMIMAGE_FILE_SYSTEM_TYPE := erofs
 BOARD_SYSTEM_EXTIMAGE_FILE_SYSTEM_TYPE := erofs
-endif
 BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := erofs
 
 TARGET_COPY_OUT_PRODUCT := product
 TARGET_COPY_OUT_SYSTEM_EXT := system_ext
 TARGET_COPY_OUT_VENDOR := vendor
-
--include vendor/lineage/config/BoardConfigReservedSize.mk
 
 # Platform
 TARGET_BOARD_PLATFORM := mt6893
@@ -208,7 +200,7 @@ BOARD_AVB_VBMETA_VENDOR_ROLLBACK_INDEX_LOCATION := 3
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
     $(DEVICE_PATH)/configs/vintf/device_framework_compatibility_matrix.xml \
     hardware/mediatek/vintf/mediatek_framework_compatibility_matrix.xml \
-    vendor/lineage/config/device_framework_matrix.xml
+    vendor/yaap/config/device_framework_matrix.xml
 
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/vintf/manifest.xml
 DEVICE_MATRIX_FILE := $(DEVICE_PATH)/configs/vintf/compatibility_matrix.xml
