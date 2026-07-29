@@ -87,6 +87,7 @@ ro.crypto.volume.filenames_mode=aes-256-cts
 
 # Display
 debug.cpurend.vsync=false
+debug.renderengine.backend=skiaglthreaded
 debug.hwui.skia_tracing_enabled=false
 debug.hwui.skia_use_perfetto_track_events=false
 graphics.gpu.profiler.support=true

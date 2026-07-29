@@ -66,6 +66,10 @@ media.stagefright.thumbnail.prefer_hw_codecs=true
 vendor.mtk_thumbnail_optimization=true
 ro.vendor.mtk_flv_playback_support=1
 
+# Override Animation
+persist.sys.activity_anim_perf_override=true
+persist.sys.ax_debug_enabled=1
+
 # Power
 sys.ipo.disable=1
 sys.ipo.pwrdncap=2
