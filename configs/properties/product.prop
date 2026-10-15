@@ -15,3 +15,6 @@ ro.fm.scan_sort=0
 ro.fm.seek_lev=4
 ro.fm.seek_space=1
 ro.fm.short_ana_sup=1
+
+# RKP
+remote_provisioning.hostname=remoteprovisioning.googleapis.com
