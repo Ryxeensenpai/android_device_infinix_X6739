@@ -24,3 +24,6 @@ type sysfs_torch_file, fs_type, sysfs_type;
 
 # Power
 type sysfs_aichg_file, fs_type, sysfs_type;
+
+# DTS Audio
+type audio_vendor_data_file, file_type, data_file_type;

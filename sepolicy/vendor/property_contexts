@@ -37,3 +37,7 @@ ro.vendor.smvr.p2batch.                     u:object_r:vendor_mtk_default_prop:s
 
 # TEE
 vendor.tee.googlekey.status                 u:object_r:vendor_mtk_trustonic_tee_prop:s0
+
+# DTS Audio
+vendor.dts.audio.                           u:object_r:vendor_dts_audio_prop:s0
+ro.vendor.dts.                              u:object_r:vendor_dts_audio_prop:s0

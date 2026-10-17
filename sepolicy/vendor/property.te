@@ -1,2 +1,5 @@
 # HWC
 vendor_public_prop(vendor_hwc_prop)
+
+# DTS Audio
+vendor_public_prop(vendor_dts_audio_prop);
