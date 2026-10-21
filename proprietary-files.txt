@@ -842,11 +842,11 @@ vendor/lib64/libdtsdsec.so
 vendor/lib64/soundfx/libdtsaudio.so
 
 # DTS Audio app (from DTS_CUSTOM_ROM_X6833B module)
-product/app/DtsAudio/DtsAudio.apk;PRESIGNED
-system/etc/default-permissions/default-com.transsion.dtsaudio.xml
-system/etc/permissions/dtsaudio.xml
-system/etc/sysconfig/config-com.transsion.dtsaudio.xml
-system/framework/dtsaudio.jar
+product/app/DtsAudio/DtsAudio.apk;PRESIGNED|8f4ff98702eb1a89f8f93aa5a240f003e3578f9d
+system/etc/default-permissions/default-com.transsion.dtsaudio.xml|0ddc36858acd375616c54cdc3f9ab807908e1013
+system/etc/permissions/dtsaudio.xml|559c3666fcc1fa2157e20d423684569f8e060722
+system/etc/sysconfig/config-com.transsion.dtsaudio.xml|0bdf4ecd3b97ef66bd211f499a3186572d680752
+system/framework/dtsaudio.jar|544dc0d2dc1c3944397e0421e41da73105202e41
 
 # Fingerprint
 vendor/etc/vintf/manifest/manifest.xml:vendor/etc/vintf/manifest/manifest_goodix.xml|a04f9d93e5c6f02a6bdc3b093d8f8d426bd88d5c
