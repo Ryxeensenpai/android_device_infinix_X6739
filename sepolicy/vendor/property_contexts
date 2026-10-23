@@ -36,7 +36,6 @@ vendor.dp.rdma.workaround.enable            u:object_r:vendor_mtk_mdp_prop:s0
 vendor.dp.reduceconfig.disable              u:object_r:vendor_mtk_mdp_prop:s0
 
 # Media
-ro.vendor.mtk_hdr_video_support             u:object_r:vendor_mtk_default_prop:s0
 ro.vendor.smvr.p2batch.                     u:object_r:vendor_mtk_default_prop:s0
 
 # TEE
