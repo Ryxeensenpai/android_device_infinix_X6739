@@ -21,3 +21,6 @@ persist.fsck.disable_linear_lookup=on
 
 # RKP
 remote_provisioning.hostname=remoteprovisioning.googleapis.com
+
+# DTS Audio
+ro.tran_dts.support=1
