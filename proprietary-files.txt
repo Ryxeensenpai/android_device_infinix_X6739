@@ -1154,17 +1154,14 @@ vendor/bin/hw/mtkfusionrild
 vendor/bin/ccci_mdinit
 vendor/bin/ccci_rpcd
 vendor/bin/gsm0710muxd
-vendor/bin/lbs_hidl_service
 vendor/bin/muxreport
 vendor/etc/apdb/APDB_MT6885_S01__W2417
 vendor/etc/apdb/APDB_MT6885_S01__W2417_ENUM
 vendor/etc/init/gsm0710muxd.rc
 vendor/etc/init/init.cccimdinit.rc
 vendor/etc/init/init.cccirpcd.rc
-vendor/etc/init/lbs_hidl_service.rc
 vendor/etc/init/mtkrild.rc
 vendor/etc/init/muxreport.rc
-vendor/etc/vintf/manifest/lbs_hidl_service@1.0.xml
 vendor/etc/ecc_list.xml
 vendor/etc/ecc_list_OP01.xml
 vendor/etc/ecc_list_OP02.xml
@@ -1201,7 +1198,6 @@ vendor/lib/librcs_volte_core.so
 vendor/lib/libsimlock.so
 vendor/lib/libsimmelock.so
 vendor/lib/libsysenv.so;DISABLE_DEPS
-vendor/lib64/lbs_hidl_service-impl.so
 vendor/lib64/libcapctrl.so
 vendor/lib64/libcares_naptr.so
 vendor/lib64/libcarrierconfig.so
@@ -1234,7 +1230,6 @@ vendor/lib64/libtrm.so
 vendor/lib64/libvia-ril.so
 vendor/lib64/libviamipc-ril.so
 vendor/lib64/libwpfa.so
-vendor/lib64/vendor.mediatek.hardware.lbs@1.0.so
 
 # Radio (IMS)
 vendor/bin/hw/vtservice_hidl
