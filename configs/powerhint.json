@@ -375,26 +375,32 @@
 "Actions": [
     {
       "PowerHint": "INTERACTION",
-      "Node": "CPULittleClusterMinFreq",
+      "Node": "CPUBigClusterMinFreq",
       "Duration": 1000,
-      "Value": "1350000"
+      "Value": "1820000"
     },
     {
       "PowerHint": "INTERACTION",
       "Node": "CPUMidClusterMinFreq",
       "Duration": 1000,
-      "Value": "1335000"
+      "Value": "1855000"
+    },
+    {
+      "PowerHint": "INTERACTION",
+      "Node": "CPULittleClusterMinFreq",
+      "Duration": 1000,
+      "Value": "1525000"
     },
     {
       "PowerHint": "INTERACTION",
       "Node": "UclampFGMin",
-      "Duration": 58,
+      "Duration": 1000,
       "Value": "15"
     },
     {
       "PowerHint": "INTERACTION",
       "Node": "UclampTAMin",
-      "Duration": 58,
+      "Duration": 1000,
       "Value": "40"
     },
     {
